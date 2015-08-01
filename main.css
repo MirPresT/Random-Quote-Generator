@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #607D8B;
+}
+
+
+/*HEADER*/
+#header {
+    background-color: #37474F;
+    height: 50px;
+    width: 100%;
+    position: relative;
+}
+
+#headerText h1 {
+    color: #F5F5F5;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 0px;
+}
+
+/*CIRCLES*/
+#CircleGrid {
+    max-width: 40%;
+    position: relative;
+    top: 4em;
+}
+
+#circleOne,#circleTwo {
+    border-radius: 50%;
+}
+
+#circleOne {
+    background-color: #F5F5F5;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#quotetext, #authortext {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#quotetext {
+    width: 420px;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 40px;
+}
+
+#outerAuthor {
+    position: relative;
+}
+
+#circleTwo {
+    background-color: #37474F;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -100px;
+}
+
+#authortext{
+    width: 150px;
+    color: white;
+    font-family: 'Lovelo', sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+
+/*bottom buttons*/
+#actionButtons {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+
+#forwardButton {
+    background-color: #F5F5F5;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    margin: 5px;
+}
+
+#tweetButton {
+    background-color: #F5F5F5;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    margin: 5px;
+}
+
+#forwardIcon {
+    width: auto;
+    color: #37474F;
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#twitter-Icon{
+    height: 25px;
+    width: 25px;
+}
+
+/*FOOTER */
+#footerContainer {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2
+}
+
+#footer a{
+    color: #F5F5F5;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+ /*background Circles*/
+.ovals {
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.ovalsInner {
+    border-radius: 50%;
+    background-color: rgba(55, 71, 79, 0.05)
+}
+#outerClass {
+    height: 200px;
+}
+#innerClass{
+    width:1300px;
+    height:1300px;
+}
+#outerClass1 {
+    height: 270px;
+}
+#innerClass1 {
+    width:1440px;
+    height:1440px;
+}
+#outerClass2 {
+    height: 340px;
+}
+#innerClass2 {
+    width:1580px;
+    height:1580px;
+    ;
+}
+
+
+/*
+background - #607D8B
+Dark - #37474F
+Light - #F5F5F5
+*/
