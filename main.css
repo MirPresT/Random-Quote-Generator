@@ -30,7 +30,8 @@ body {
 
 /*CIRCLES*/
 #CircleGrid {
-    max-width: 40%;
+    max-width: 670px;
+    width: 100%;
     position: relative;
     top: 4em;
 }
@@ -41,10 +42,11 @@ body {
 
 #circleOne {
     background-color: #F5F5F5;
-    width: 500px;
-    height: 500px;
     margin: 0 auto;
+    height: 200px;
+    width: 200px;
     position: relative;
+    z-index: 1;
 }
 
 #quotetext, #authortext {
@@ -57,7 +59,7 @@ body {
 
 #quotetext {
     width: 420px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans',sans-serif;
     font-size: 30px;
     font-weight: 200;
     line-height: 40px;
@@ -75,6 +77,7 @@ body {
     bottom: 0;
     left: 50%;
     margin-left: -100px;
+    z-index: 2;
 }
 
 #authortext{
@@ -154,8 +157,10 @@ body {
 }
 .ovalsInner {
     border-radius: 50%;
-    background-color: rgba(55, 71, 79, 0.05)
+    background-color: rgba(55, 71, 79, 0.05);
+    z-index: 0;
 }
+
 #outerClass {
     height: 200px;
 }
