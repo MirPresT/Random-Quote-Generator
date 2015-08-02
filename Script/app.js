@@ -81,7 +81,7 @@
                 });
             }
 
-            // formatting text for tweet button 
+            // formatting text for tweet button
             var quoteLink = quoteChosen.split(' ');
             quoteLink[0] = "\"" + quoteLink[0];
             quoteLink[quoteLink.length-1] = quoteLink[quoteLink.length-1] + "\"";
