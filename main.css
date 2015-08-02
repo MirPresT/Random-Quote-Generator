@@ -18,7 +18,7 @@ body {
 
 #headerText h1 {
     color: #F5F5F5;
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Open Sans", sans-serif;
     font-weight: lighter;
     position: absolute;
@@ -43,8 +43,8 @@ body {
 #circleOne {
     background-color: #F5F5F5;
     margin: 0 auto;
-    height: 200px;
-    width: 200px;
+    height: 500px;
+    width: 500px;
     position: relative;
     z-index: 1;
 }
@@ -146,43 +146,48 @@ body {
 }
 
 
-
  /*background Circles*/
-.ovals {
-    overflow: hidden;
+
+.center-me {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
 }
-.ovalsInner {
+.circle {
+    position: absolute;
     border-radius: 50%;
-    background-color: rgba(55, 71, 79, 0.05);
-    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.box{
+    overflow: hidden;
 }
 
-#outerClass {
+#box1{
     height: 200px;
+    width: 500px;
 }
-#innerClass{
-    width:1300px;
-    height:1300px;
+#circle1{
+    height: 500px;
+    width: 100%;
 }
-#outerClass1 {
-    height: 270px;
+#box2{
+    height: 250px;
+    width: 600px;
 }
-#innerClass1 {
-    width:1440px;
-    height:1440px;
+#circle2{
+    height: 600px;
+    width: 100%;
 }
-#outerClass2 {
-    height: 340px;
+#box3{
+    height: 300px;
+    width: 700px;
 }
-#innerClass2 {
-    width:1580px;
-    height:1580px;
-    ;
+#circle3{
+    height: 700px;
+    width: 100%;
 }
+
 
 
 /*
