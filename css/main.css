@@ -30,7 +30,7 @@ body {
 
 /*CIRCLES*/
 #CircleGrid {
-    max-width: 670px;
+    max-width: 680px;
     width: 100%;
     position: relative;
     top: 4em;
@@ -43,8 +43,8 @@ body {
 #circleOne {
     background-color: #F5F5F5;
     margin: 0 auto;
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 550px;
     position: relative;
     z-index: 1;
 }
