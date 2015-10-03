@@ -1,2 +1,2 @@
-images/Mockups/*
-images/AppTemplate.ai
+images/*
+!images/icons
